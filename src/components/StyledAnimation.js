@@ -21,6 +21,7 @@ export const Title = styled.h1`
     font-size: 45px;
     letter-spacing: 4px;
     text-align: center;
+    margin-top: 2rem;
     color: rgb(234, 131, 34);
 `
 
@@ -36,6 +37,7 @@ export const U1 = styled.ul`
         color: rgb(255, 255, 255);
         margin-bottom: 15px;
         padding: 7px;
+        margin: 1.5rem;
         font-size: 25px;
         text-transform: uppercase;
 
