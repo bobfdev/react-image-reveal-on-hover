@@ -3,6 +3,18 @@ import styled from 'styled-components';
 export const Container = styled.section`
     width: 100%;
     height: 100%;
+
+    .cursor {
+        width: 25px;
+        height: 25px;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(238, 130, 31);
+        border-radius: 50%;
+        pointer-events: none;
+        position: fixed;
+        transform: translate(-50%, -50%);
+    }
 `
 
 export const Title = styled.h1`
@@ -10,4 +22,22 @@ export const Title = styled.h1`
     letter-spacing: 4px;
     text-align: center;
     color: rgb(234, 131, 34);
+`
+
+export const U1 = styled.ul`
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 40px;
+
+    li {
+        color: rgb(255, 255, 255);
+    }
+
+    img {
+        height: 400px;
+        width: 400px;
+    }
 `
