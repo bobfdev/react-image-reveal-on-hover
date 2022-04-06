@@ -34,10 +34,36 @@ export const U1 = styled.ul`
 
     li {
         color: rgb(255, 255, 255);
+        margin-bottom: 15px;
+        padding: 7px;
+        font-size: 25px;
+        text-transform: uppercase;
+
+        span {
+            &:hover {
+                & ~ div {
+                    transform: translateX(0) scale(1);
+                    opacity: 1;
+                }
+            }
+        }
+    
+        .img-cont {
+            position: absolute;
+            width: 300px;
+            /* transform: translateX(100px) scale(0.8); */
+            transform: rotate(-5deg) scale(0.8);
+            opacity: 0;
+            transition: 0.6s;
+
+            img {
+                height: 400px;
+                width: 400px;
+                border: 1px solid rgb(255, 255, 255, 0.5);
+                border-radius: 15px;
+            }
+        }
     }
 
-    img {
-        height: 400px;
-        width: 400px;
-    }
+  
 `

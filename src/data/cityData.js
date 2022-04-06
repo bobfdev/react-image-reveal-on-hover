@@ -13,52 +13,52 @@ import Image10 from '../images/south-padre-island.jpeg';
 export const cityData = [
     {
         id: "c1",
-        name: "Virginia Beach, Virginia",
+        name: "Virginia Beach, VA",
         img: Image1,
     },
     {
         id: "c2",
-        name: "Wrightsville Beach, North Carolina",
+        name: "Wrightsville Beach, NC",
         img: Image2,
     },
     {
         id: "c3",
-        name: "Myrtle Beach, Sorth Carolina",
+        name: "Myrtle Beach, SC",
         img: Image3,
     },
     {
         id: "c4",
-        name: "Daytona Beach, Florida",
+        name: "Daytona Beach, FL",
         img: Image4,
     },
     {
         id: "c5",
-        name: "Fort Myers Beach, Florida",
+        name: "Fort Myers Beach, FL",
         img: Image5,
     },
     {
         id: "c6",
-        name: "Clearwater Beach, Florida",
+        name: "Clearwater Beach, FL",
         img: Image6,
     },
     {
         id: "c7",
-        name: "Panama City Beach, Florida",
+        name: "Panama City Beach, FL",
         img: Image7,
     },
     {
         id: "c8",
-        name: "Destin, Florida",
+        name: "Destin, FL",
         img: Image8,
     },
     {
         id: "c9",
-        name: "Gulf Shores, Alabama",
+        name: "Gulf Shores, AL",
         img: Image9,
     },
     {
         id: "c10",
-        name: "South Padre Island, Texas",
+        name: "South Padre Island, TX",
         img: Image10,
     },
 
